@@ -4,8 +4,8 @@ import java.net.Socket;
 
 public class ServerMultiThread {
     public static void main(String[] args) throws IOException {
-        public int port = 12345;
-        public ServerSocket serverSocket = new ServerSocket(port);
+        int port = 12345;
+        ServerSocket serverSocket = new ServerSocket(port);
         
         System.out.println("=== SERVER CALCOLATORE POLIGONI ===");
         System.out.println("Server avviato sulla porta " + port);
